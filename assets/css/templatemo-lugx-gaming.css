@@ -1,29 +1,4 @@
-/*
 
-TemplateMo 589 lugx gaming
-
-https://templatemo.com/tm-589-lugx-gaming
-
-*/
-
-/* ---------------------------------------------
-Table of contents
-------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. banner
-06. features
-07. testimonials
-08. contact
-09. footer
-
---------------------------------------------- */
-/* 
----------------------------------------------
-font & reset css
---------------------------------------------- 
 */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
 /* 
@@ -120,12 +95,12 @@ body {
 }
 
 ::selection {
-  background: #0ba6f2;
+  background: #0200f9;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #0ba6f2;
+  background: #0200f9; /* Cambio de color */
   color: #fff;
 }
 
@@ -147,11 +122,11 @@ body {
 
 .section-heading h2 em {
   font-style: normal;
-  color: #0071f8;
+  color: #0200f9; /* Cambio de color */
 }
 
 .section-heading h6 {
-  color: #ee626b;
+  color: #0200f9;
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 700;
@@ -159,7 +134,7 @@ body {
 
 .main-button a {
   display: inline-block;
-  background-color: #0ba6f2;
+  background-color: #0200f9; /* Cambio de color */
   text-transform: uppercase;
   color: #fff;
   font-size: 14px;
@@ -172,7 +147,7 @@ body {
 }
 
 .main-button a:hover {
-  background-color: #0ba6f2;
+  background-color: #0200f9; /* Cambio de color */
   color: #fff;
 }
 
@@ -249,7 +224,7 @@ Pre-loader Style
   height: 16px;
   top: 12px;
   left: 15px;
-  background: #0ba6f2;
+  background: #0200f9;
   border-radius: 50%;
   -webkit-transform: translateX(0);
   transform: translateX(0);
@@ -272,7 +247,7 @@ Pre-loader Style
   width: 16px;
   height: 16px;
   margin-left: 16px;
-  background: #0071f8;
+  background: #0200f9;
   border-radius: 50%;
 }
 
@@ -285,7 +260,7 @@ Header Style
 */
 
 .background-header {
-  background-color: #0ba6f2 !important;
+  background-color: #0200f9 !important;
   border-radius: 0px 0px 25px 25px;
   height: 80px!important;
   position: fixed!important;
@@ -728,7 +703,7 @@ Banner Style
 }
 
 .main-banner .caption form button:hover {
-  background-color: #0ba6f2;
+  background-color: #0200f9;
 }
 
 .main-banner .right-image {
@@ -744,7 +719,7 @@ Banner Style
   right: 20px;
   top: 20px;
   border-radius: 25px;
-  background-color: #0ba6f2;
+  background-color: #0200f9;
   font-size: 22px;
   text-transform: uppercase;
   font-weight: 700;
@@ -801,7 +776,7 @@ Services Style
   display: inline-block;
   text-align: center;
   line-height: 90px;
-  background-color: #0ba6f2;
+  background-color: #0200f9;
   border-radius: 50%;
   transition: all .3s;
 }
@@ -851,7 +826,7 @@ Trending Style
   right: 20px;
   top: 20px;
   border-radius: 10px;
-  background-color: #0ba6f2;
+  background-color: #0200f9;
   font-size: 17px;
   text-transform: uppercase;
   font-weight: 600;
@@ -892,11 +867,11 @@ Trending Style
 }
 
 .trending .item:hover .down-content h4 {
-  color: #0071f8;
+  color: #0200f9;
 }
 
 .trending .item:hover .down-content a {
-  background-color: #0ba6f2;
+  background-color: #0200f9;
 }
 
 
@@ -968,11 +943,11 @@ Most Played Style
 }
 
 .most-played .item:hover .down-content h4 {
-  color: #0071f8;
+  color: #0200f9;
 }
 
 .most-played .item:hover .down-content a {
-  background-color: #0ba6f2;
+  background-color: #0200f9;
 }
 
 
@@ -987,7 +962,7 @@ Categories Style
 }
 
 .categories .item  {
-  background-color: #0ba6f2;
+  background-color: #0200f9;
   position: relative;
   border-radius: 25px;
   text-align: center;
@@ -1101,7 +1076,7 @@ CTA Style
 }
 
 .cta .subscribe form button:hover {
-  background-color: #0071f8;
+  background-color: #0200f9;
 }
 
 
@@ -1113,7 +1088,7 @@ Footer Style
 
 footer {
   margin-top: 150px;
-  background-color: #0ba6f2;
+  background-color: #0200f9;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(../images/footer-bg.jpg);
@@ -1217,7 +1192,7 @@ Shop Page Style
 }
 
 .trending ul.trending-filter li a:hover {
-  color: #ee626b;
+  color: #0200f9;
 }
 
 .trending-box .item  {
@@ -1248,7 +1223,7 @@ Shop Page Style
   right: 20px;
   top: 20px;
   border-radius: 10px;
-  background-color: #0ba6f2;
+  background-color: #0200f9;
   font-size: 17px;
   text-transform: uppercase;
   font-weight: 600;
@@ -1289,11 +1264,11 @@ Shop Page Style
 }
 
 .trending-box .item:hover .down-content h4 {
-  color: #0ba6f2;
+  color: #0200f9;
 }
 
 .trending-box .item:hover .down-content a {
-  background-color: #0ba6f2;
+  background-color: #0200f9;
 }
 
 .trending ul.pagination {
@@ -1324,7 +1299,7 @@ Shop Page Style
 
 .trending ul.pagination li a:hover,
 .trending ul.pagination li a.is_active {
-  background-color: #0071f8;
+  background-color: #0200f9;
   color: #fff;
 }
 
@@ -1358,7 +1333,7 @@ Single Page Style
 .single-product span.price {
   font-size: 27px;
   font-weight: 700;
-  color: #0ba6f2;
+  color: #0200f9;
 }
 
 .single-product span.price em {
@@ -1410,7 +1385,7 @@ Single Page Style
 }
 
 .single-product form button:hover {
-  background-color: #0071f8;
+  background-color: #0200f9;
 }
 
 .single-product ul {
@@ -1421,7 +1396,7 @@ Single Page Style
   display: block;
   margin: 20px 0px;
   font-size: 14px;
-  color: #0ba6f2;
+  color: #0200f9;
 }
 
 .single-product ul li:last-child {
@@ -1468,7 +1443,7 @@ Single Page Style
 }
 
 .tabs-content .nav-tabs .nav-link.active {
-  color: #0ba6f2;
+  color: #0200f9;
 }
 
 .tabs-content .tab-content {
@@ -1569,7 +1544,7 @@ Contact PAge Style
 }
 
 .contact-page .right-content form button:hover {
-  background-color: #0ba6f2;
+  background-color: #0200f9;
 }
 
 /* 
